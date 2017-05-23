@@ -30,8 +30,9 @@ public class GreetingController {
         Timer.Context context = timer.time();
 
         // 延时
-        for(int i=0 ; i<10000 ; i++){
-            String targe = "aaa" + i;
+        for(int i=0 ; i<100 ; i++){
+            i++;
+            i--;
         }
 
         context.stop();
